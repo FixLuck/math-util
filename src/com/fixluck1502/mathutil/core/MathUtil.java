@@ -57,7 +57,7 @@ public class MathUtil {
     public static long getFactorial(int n) {
 
         if (n < 0 || n > 20) {
-            throw new IllegalArgumentException("n must be between 0 - 20 pls!");
+            throw new IllegalArgumentException("Invalid Argument: n must be between 0 to 20");
         }
 
         if (n == 0 || n == 1) {
